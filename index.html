@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="mainstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<style>
+
+    #home-page-image {
+        border: #fafafa 2px dotted;
+        height: auto;
+        width: 100%;
+    }
+
+    #home-page-top-banner {
+        padding: 30px 80px;
+        position: absolute;
+        background-color: #005eb8;
+        color: #fff;
+        top: 350px;
+        left: 302px;
+        font-size: 20px;
+    }
+
+    #home-page-top-banner-triangle {
+        background-color: #005eb8;
+        height: 25px;
+        width: 25px;
+        top: 526px;
+        left: 405px;
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+    }
+
+
+    body, html {
+        font-size: 15px;
+        font-family: Frutiger W01,Arial,Sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+
+    /* Below is css style for nav bar*/
+    nav {
+        position: relative;
+        height: 70px;
+        box-shadow: 4px 4px 10px #f7f7f7;
+    }
+
+    nav li a {
+        font-family: Open Sans, Lato, sans-serif;
+        color: #333333;
+        display: block;
+        padding: 0 13px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    nav ul {
+        background: white;
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        height: inherit;
+    }
+
+    nav li:hover {
+        opacity: .8;
+        background-color: #fafafa;
+    }
+
+    nav a:hover {
+        color: #890125;
+    }
+
+    .nav_btn {
+        float: left;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        height: inherit;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .nav_btn_ex {
+        float: right;
+        height: inherit;
+        margin-right: 10px;
+    }
+
+    .nav_btn_in {
+        height: inherit;
+        display: flex;
+        align-items: center;
+    }
+
+    #below_nar {
+        background-color: #f7f7f7;
+        padding-top: 20px;
+    }
+
+
+    #main-content {
+        flex: 75%;
+        max-width: 75%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #main-content-left {
+
+    }
+
+    #main {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1140px;
+        margin-top: 170px;
+    }
+
+
+
+    #main-content-right {
+        flex: 25%;
+        max-width: 25%;
+        border-radius: 1px;
+        border-style: solid;
+        border-color: #fafafa;
+        background-color: white;
+        list-style-type: none;
+        max-height: 400px;
+        height: auto;
+        margin-left: 20px;
+        box-shadow: 2px 2px 3px #d7d1d1;
+
+    }
+
+    .widget {
+        color: black;
+        padding-left: 20px;
+    }
+
+    .right-words {
+        font-family: 'Quicksand';
+        font-size: 24px;
+    }
+
+    .right-title {
+        font-weight: bold;
+    }
+
+    footer {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        background-color: #d8dde0;
+        padding-left: 700px;
+        border-top: 4px solid #005eb8;
+    }
+    .main-content-left-paragraph {
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 3px #d7d1d1;
+        background-color: white;
+        padding: 30px 50px;
+        border-radius: 1px;
+        border-style: solid;
+        border-color: #fafafa;
+
+    }
+
+    .main-content-left-paragraph-insidebanner {
+        text-align: center;
+        flex: 25%;
+        font-size: 10px;
+        font-family: Frutiger W01,Arial,Sans-serif;
+        color: #4c6272;
+    }
+
+    .main-content-left-paragraph-insidebanner h1{
+        text-align: center;
+        font-size: 20px;
+        font-family: Frutiger W01,Arial,Sans-serif;
+        color: black;
+        margin-bottom: 3px;
+    }
+
+    a {
+        color: #005eb8;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #7c2855;
+    }
+
+</style>
+
+<body>
+<nav>
+    <ul>
+        <li class="nav_btn logo"><a href="index.html">Doctor's Connect</a></li>
+        <li class="nav_btn"><a href="About_us.html">About us</a></li>
+        <li class="nav_btn"><a href="Future_plan.html">Future Plans</a></li>
+        <li class="nav_btn"><a href="Blogs.html">Blogs</a></li>
+        <li class="nav_btn"><a href="Contact_us.html">Contact Us</a></li>
+        <li class="nav_btn_ex nav_btn_in"><a href="sign%20in.html">Log in</a></li>
+    </ul>
+</nav>
+
+<section>
+    <div>
+        <img id="home-page-image" src="img/A_0818_homepage_hero_5_KRK6T6.width-1000.jpg">
+    </div>
+    <div>
+        <div id="home-page-top-banner">
+            <h1>Doctor's Connect - Malaysia</h1>
+            <p>Caring with Passion!</p>
+        </div>
+        <span id="home-page-top-banner-triangle"></span>
+    </div>
+</section>
+<section id="below_nar">
+    <div id="main">
+        <div id="main-content">
+            <div id="main-content-left">
+                <div class="main-content-left-paragraph" style="display: flex;padding: ;">
+                    <div class="main-content-left-paragraph-insidebanner">
+                        <h1><strong>5</strong></h1>
+                        <p>REGULAR VILLAGES<br> ADOPTED</p>
+                    </div>
+                    <div class="main-content-left-paragraph-insidebanner">
+                        <h1><strong>497</strong></h1>
+                        <p>PATIENTS SEEN TILL DATE<br> WITH REGULAR FOLLOW UP CAMPS </p>
+                    </div>
+                    <div class="main-content-left-paragraph-insidebanner">
+                        <h1><strong>100-120</strong></h1>
+                        <p>PATIENTS SCREENED<br> PER MEDICAL CAMP</p>
+                    </div>
+                    <div class="main-content-left-paragraph-insidebanner">
+                        <h1><strong>6</strong></h1>
+                        <p>SPECIALITIES OFFERED <br>INCLUDING FAMILY MEDICINE</p>
+                    </div>
+
+                </div>
+                <div class="main-content-left-paragraph">
+                    <h2>Aim and Vision</h2>
+                    <p>Doctors Connect Foundation Malaysia’s sole aim is in creating access for quality healthcare to remote inaccessible and poor socio-economic areas to provide quality medical screening and care for the needy and unfortunate irrespective of race, religion or nationality – all FREE of cost!</p>
+                    <p>Our vision is unity in diversity – breaking boundaries of race religion and nationality and seeing one in all. Our mission is to provide free, high quality, and compassionate medical care to the underprivileged communities in Malaysia who have poor access to healthcare. </p>
+                </div>
+                <div class="main-content-left-paragraph">
+                    <h2>Our Services</h2>
+                    <p><i>Fully equipped general clinic with vitals counter and ECG services </i></p>
+                    <p><i>Fully fledged Pharmacy with high quality specialist medication </i></p>
+                    <p><i>Medical aid sponsorship for the poor in need of basic eyewear, wheelchairs, walking aid etc</i></p>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="main-content-right">
+            <div id="main-content-right-post-container">
+                <li>
+                    <h4 class="widget right-words right-title">Recent Posts</h4>
+                    <ul style="list-style-type: none;font-size: 15px" class="right-words">
+                        <li><a href="">Post 1</a></li>
+                        <li><a href="">Post 2</a></li>
+                        <li><a href="">Post 3</a></li>
+                        <li><a href="">Post 4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4 class="widget right-words right-title">Search</h4>
+                    <form class="widget">
+                        <input id="search" type="text">
+                        <div style="padding-top: 15px">
+                            <button type="submit">Search 🔎</button>
+                        </div>
+                    </form>
+                </li>
+            </div>
+        </div>
+    </div>
+
+</section>
+</body>
+<footer>
+    <div>
+        <p style="margin: 0">© 2020 Doctor's Connect – Malaysia</p>
+        <p style="margin: 0">Developed By CMS_Team 02</p>
+    </div>
+</footer>
+</html>
