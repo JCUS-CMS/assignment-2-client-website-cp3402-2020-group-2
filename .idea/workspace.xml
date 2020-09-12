@@ -19,9 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86836b7d-88de-41ff-8ce1-ed7ff1db4a1e" name="Default Changelist" comment="first uploading">
+    <list default="true" id="86836b7d-88de-41ff-8ce1-ed7ff1db4a1e" name="Default Changelist" comment="restructuring..">
+      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-source/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainstyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hN2FDISkc29RNBoQhl0VOGogiH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,9 +56,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/assignment-2-team-12-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PhpstormProjects\assignment-2-client-website-cp3402-2020-group-2\html-source" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +75,7 @@
       <updated>1599837123355</updated>
       <workItem from="1599837126276" duration="24000" />
       <workItem from="1599837190858" duration="58000" />
-      <workItem from="1599878630044" duration="5049000" />
+      <workItem from="1599878630044" duration="5748000" />
     </task>
     <task id="LOCAL-00001" summary="first uploading">
       <created>1599837223762</created>
@@ -65,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599837223762</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="restructuring..">
+      <created>1599908622751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599908622751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,16 +111,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first uploading" />
-    <option name="LAST_COMMIT_MESSAGE" value="first uploading" />
+    <MESSAGE value="restructuring.." />
+    <option name="LAST_COMMIT_MESSAGE" value="restructuring.." />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="308" key="FileChooserDialogImpl" timestamp="1599907036169">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="740" y="308" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1599907036169" />
-    <state x="552" y="286" key="Vcs.Push.Dialog.v2" timestamp="1599837226771">
+    <state x="776" y="476" key="NewPhpFileDialog" timestamp="1599908851330">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="286" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1599837226771" />
+    <state x="776" y="476" key="NewPhpFileDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1599908851330" />
+    <state x="552" y="286" key="Vcs.Push.Dialog.v2" timestamp="1599908728363">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="286" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1599908728363" />
   </component>
 </project>
