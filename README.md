@@ -62,3 +62,12 @@ Bringing machine 'default' up with 'virtualbox' provider...
 <b>ScoatchBox/Vagrant</b> (Local)<br>
 <b>Siteground</b> (Staging)<br>
 <b>Siteground</b> (Production)
+***
+## Database Management ##
+### Migrate DB ###
+In our project, a WordPress plugin 'Migrate DB' is used for databse migration. The plugin is inside our Github repositery so it is available to use in any WordPress environment.<br>
+Steps of migrating database:
+1. Download and install 'Migrate DB' in your current environment.<br>
+2. Get URL and private key from target environment.<br>
+3. Click 'push', then input URL and private key of target environment.<br>
+4. If avbove steps are correct, WordPress will check whether target environment is available or not. If no mistakes, all the files will push to the target environment.
