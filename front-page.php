@@ -1,34 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <link href="../style.css" rel="stylesheet" type="text/css">
-</head>
-
-<style>
-
-
-</style>
-
-
-<body>
-<header>
-    <nav>
-        <ul>
-            <li class="nav_btn logo"><a href="index.html">Doctor's Connect</a></li>
-            <li class="nav_btn"><a href="About_us.html">About us</a></li>
-            <li class="nav_btn"><a href="Future_plan.html">Future Plans</a></li>
-            <li class="nav_btn"><a href="Blogs.html">Blogs</a></li>
-            <li class="nav_btn"><a href="Contact_us.html">Contact Us</a></li>
-            <li class="nav_btn_ex nav_btn_in"><a href="sign%20in.html">Log in</a></li>
-        </ul>
-    </nav>
-</header>
+<?php get_header();?>
 
 <section>
     <div>
-        <img id="home-page-image" src="../img/A_0818_homepage_hero_5_KRK6T6.width-1000.jpg">
+        <img id="home-page-image" src="<?php bloginfo('template_directory');?>/img/A_0818_homepage_hero_5_KRK6T6.width-1000.jpg">
     </div>
     <div>
         <div id="home-page-top-banner">
@@ -76,7 +50,7 @@
                     <p><i>Fully equipped general clinic with vitals counter and ECG services </i></p>
                     <p><i>Fully fledged Pharmacy with high quality specialist medication </i></p>
                     <p><i>Medical aid sponsorship for the poor in need of basic eyewear, wheelchairs, walking aid
-                        etc</i></p>
+                            etc</i></p>
                 </div>
 
 
@@ -105,15 +79,5 @@
             </div>
         </div>
     </div>
-
 </section>
-
-<footer>
-    <div>
-        <p style="margin: 0">© 2020 Doctor's Connect – Malaysia</p>
-        <p style="margin: 0">Developed By CMS_Team 02</p>
-    </div>
-</footer>
-</body>
-
-</html>
+<?php get_footer();?>
