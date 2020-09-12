@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86836b7d-88de-41ff-8ce1-ed7ff1db4a1e" name="Default Changelist" comment="" />
+    <list default="true" id="86836b7d-88de-41ff-8ce1-ed7ff1db4a1e" name="Default Changelist" comment="first uploading">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/PhpStormProjects" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/assignment-2-team-12-master" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -52,7 +55,17 @@
       <option name="presentableId" value="Default" />
       <updated>1599837123355</updated>
       <workItem from="1599837126276" duration="24000" />
+      <workItem from="1599837190858" duration="58000" />
+      <workItem from="1599878630044" duration="5049000" />
     </task>
+    <task id="LOCAL-00001" summary="first uploading">
+      <created>1599837223762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599837223762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,5 +81,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first uploading" />
+    <option name="LAST_COMMIT_MESSAGE" value="first uploading" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="308" key="FileChooserDialogImpl" timestamp="1599907036169">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="740" y="308" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1599907036169" />
+    <state x="552" y="286" key="Vcs.Push.Dialog.v2" timestamp="1599837226771">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="286" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1599837226771" />
   </component>
 </project>
