@@ -60,12 +60,12 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ***
 ## Deployment ##
 <b>ScoatchBox/Vagrant</b> (Local)<br>
-<b>Siteground</b> (Staging)<br>
-<b>Siteground</b> (Production)
+<b>Siteground - http://lec.sgedu.site/doctorsconnect/staging/ </b> (Staging)<br>
+<b>Siteground - http://lec.sgedu.site/doctorsconnect/</b> (Production)
 ***
 ## Version Control ##
 <b>Git</b><br>
-<b>GitHub</b>
+<b>GitHub - https://github.com/JCUS-CMS/assignment-2-client-website-cp3402-2020-group-2</b>
 ***
 ## Database Management ##
 ### Migrate DB ###
