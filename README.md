@@ -12,8 +12,8 @@ Doctors Connect Foundation Malaysia’s sole aim is in creating access for quali
 ***
 ## Prerequisites ##
 ### Virtual Local Environment Setup ###
-###  Scoatch Box -> Vagrant ###
-Why Scoatch Box?<br>
+###  Scotch Box -> Vagrant ###
+Why Scotch Box?<br>
 Scotch Box is a pre-configured Vagrant Box with a full array of features to get us up and running with Vagrant in no time.<br>
 Download the files to the computer from https://github.com/scotch-io/scotch-box.<br>
 Or you can open cmd and simply type as following:
