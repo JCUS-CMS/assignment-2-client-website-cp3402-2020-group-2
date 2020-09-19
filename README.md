@@ -7,7 +7,7 @@
 <b>5. Siyuan Yang</b>
 ***
 ## Brief Description ##
-This is a group project for developing and deploying a website called <b>Doctors Connect</b> using WordPress, and the website is designed using our own custom theme created based on a 'Starter Theme' - Underscore.<br>
+This is a group project for developing and deploying a website called <b>Doctors Connect</b> using WordPress, and the website is designed using our own custom theme created based on a 'Starter Theme' - Highstart.<br>
 Doctors Connect Foundation Malaysia’s sole aim is in creating access for quality healthcare to remote inaccessible and poor socio-economic areas to provide quality medical screening and care for the needy and unfortunate irrespective of race, religion or nationality. And our job is to design a nice website for it to attract more volunteers.
 ***
 ## Prerequisites ##
